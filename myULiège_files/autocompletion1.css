@@ -1,0 +1,38 @@
+div#result_scroll {
+	overflow: auto;
+	color: white !important;
+}
+
+div#result_window {
+	border: solid 1px #006f7b;
+	box-shadow: 2px 2px 4px #006f7b;
+	background-color: #006f7b;
+}
+
+.smallTitle {
+	border-bottom-color: #CCCCCC;
+	color: white;
+}
+
+.bottomInfo {
+	border-top-color: #CCCCCC;
+}
+
+.divChoiceResult {
+	color: white;
+	border-color: #006f7b;
+	background-color: #006f7b;
+	box-shadow: 5px 5px 8px #006f7b;
+}
+
+.divChoiceResultPerson div.choice {
+	color: white;
+}
+
+.acSeparatorText {
+	background-color: #c7d1e0;
+}
+
+.acFooter {
+	border-top-color: #CCCCCC;
+}

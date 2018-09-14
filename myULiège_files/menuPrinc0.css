@@ -1,0 +1,191 @@
+/*------------------------- Menu déroulant Haut de page R.V. -------------------------*/
+
+#mpTopmenu 
+{
+	color: #FFF;
+	width: 800px;
+	height: 32px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#mpTopmenu ul,#mpTopmenu li
+ {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/*---------- Niveau 1 ----------*/
+
+#mpTopmenu .mpNiveau1 li 
+{
+	float: left;
+	list-style-type: none;
+	font-size: 9px;
+}
+
+#mpTopmenu .mpBarreVerticale 
+{
+	line-height: 32px;
+}
+
+#mpTopmenu .mpNiveau1 li a.mpLevel1 
+{
+	font-size: 11px;
+	padding: 0 10px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	white-space: normal;
+	color: #FFF;
+	line-height: 32px;
+}
+
+#mpTopmenu .mpNiveau1 li:hover a.mpLevel1,#mpTopmenu .mpNiveau1 li a.mpLevel1:hover
+{
+	color: orange;
+}
+
+#mpTopmenu .mpNiveau1 li.hasText a.mpLevel1:hover
+{
+	color: white;
+}
+
+/*---------- Niveau 2 ----------*/
+
+#mpTopmenu .mpNiveau2 
+{
+	z-index: 999;
+	position: absolute;
+	top: -9999em;;
+	padding-bottom: 5px;	
+}
+
+#mpTopmenu .mpNiveau2 li 
+{
+	display: inline;
+	clear: left;
+	width: 250px;
+}
+
+#mpTopmenu .mpNiveau2 li.hasChild 
+{
+	background-image: url(/resources_xt/FW/images/fleche_menu.gif);
+	background-position: 240px 8px;
+	background-repeat: no-repeat;
+}
+
+#mpTopmenu .mpNiveau2 li.hasSeparator 
+{
+	border-bottom: 1px solid white;
+}
+
+#mpTopmenu .mpNiveau2 li.hasSeparatorNomme 
+{
+	border-bottom: 1px solid white;
+	text-align: center;
+    font-style: italic;
+}
+
+#mpTopmenu .mpNiveau2 li a.mpLevel2 
+{
+	font-size: 11px;
+	padding: 5px 5px;
+	display: block;
+	text-align: left;
+	color: #FFF;
+	line-height: 16px;
+	text-decoration: none;
+}
+
+#mpTopmenu .mpNiveau2 li:hover a.mpLevel2 
+{
+	color: orange;
+}
+
+#mpTopmenu li:hover .mpNiveau2 
+{
+	top: auto;
+	min-height: 0;
+}
+
+/*---------- Niveau 3 ----------*/
+
+#mpTopmenu .mpNiveau3 
+{
+	z-index: 999;
+	position: absolute;
+	top: -9999em;
+	padding-bottom: 5px;
+}
+
+}
+#mpTopmenu .mpNiveau3 li 
+{
+	display: inline;
+	clear: left;
+	width: 250px;
+}
+
+#mpTopmenu .mpNiveau3 li a.mpLevel3 
+{
+	font-size: 11px;
+	padding: 5px 5px;
+	display: block;
+	text-align: left;
+	color: #FFF;
+	line-height: 16px;
+	text-decoration: none;
+}
+
+#mpTopmenu .mpNiveau3 li:hover a.mpLevel3 
+{
+	color: orange;
+}
+
+#mpTopmenu .mpNiveau2 li:hover .mpNiveau3 
+{
+	top: auto;
+	margin: -26px 0 0 250px;
+}
+
+/*---------- Niveau 4 ----------*/
+
+#mpTopmenu .mpNiveau4 
+{
+	z-index: 999;
+	position: absolute;
+	top: -9999em;
+	padding-bottom: 5px;
+}
+
+}
+#mpTopmenu .mpNiveau4 li 
+{
+	display: inline;
+	clear: left;
+	width: 250px;
+}
+
+#mpTopmenu .mpNiveau4 li a.mpLevel4 
+{
+	font-size: 11px;
+	padding: 5px 5px;
+	display: block;
+	text-align: left;
+	color: #FFF;
+	line-height: 16px;
+	text-decoration: none;
+}
+
+#mpTopmenu .mpNiveau4 li a:hover 
+{
+	color: orange;
+}
+
+#mpTopmenu .mpNiveau3 li:hover .mpNiveau4 
+{
+	top: auto;
+	margin: -26px 0 0 250px;
+}

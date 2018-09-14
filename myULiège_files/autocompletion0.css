@@ -1,0 +1,168 @@
+div#result_window {
+	padding: 3px;
+	min-width:300px;
+}
+div#result_scroll {
+	overflow: auto; 
+	color: black;
+}
+
+.smallTitle {
+	font-family: "Verdana";
+	font-weight: bold;
+	font-size: 12px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	position: relative;
+	text-align: left;
+	padding-bottom: 2px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.bottomInfo {
+	font-family: "Verdana";
+	font-size: 11px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	position: relative;
+	text-align: center;
+	margin-top: 5px;
+	width: 100%;
+	display: inline-block;
+}
+
+.divChoiceResult {  
+	padding: 2px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;	
+	display: none;
+	z-index: 100;
+	font-weight: normal;
+}
+
+.divChoiceResultPerson {  
+	display: none;
+	z-index: 100;
+	text-align: left;
+}
+
+.divChoiceResult div.choice {
+	padding: 2px;
+	padding-right: 10px;
+	padding-left: 5px;
+	cursor: pointer;
+	text-align: left;
+	/* border-radius: 5px; */
+}
+
+.divChoiceResultPerson div.choice {
+	padding: 2px;
+	padding-right: 10px;
+	padding-left: 5px;
+	cursor: pointer;
+	/* border-radius: 5px; */
+}
+
+div.divDescription {
+	padding: 2px;
+	padding-right: 10px;
+	padding-left: 5px;
+	cursor: default;
+	border-radius: 5px;
+	border: 1px solid white;
+	margin-top: 5px;
+	color: black;
+	background-color: white;
+}
+
+div.divChoiceHelp {
+	z-index: 10;
+	display: none;
+	background-image:
+		url("/resources_xt/FW/images/ico16/information_s.png");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	margin-top: 2px;
+}
+
+span.searchTermColorize {
+	background-color: yellow;
+	color: black;
+}
+
+.acSeparator {
+	padding: 2px;
+	padding-right: 10px;
+	padding-left: 5px;
+	cursor: default;
+	border-radius: 5px;
+}
+
+.acSeparatorText {
+	padding: 2px;
+	padding-right: 10px;
+	padding-left: 5px;
+	cursor: default;
+	border-radius: 5px;
+	color: black;
+}
+
+.inputKO {
+	background-color: rgb(255, 255, 255);
+	background-image:
+		url("/resources_xt/FW/images/ico16/view_s.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 99% 40%;
+	background-size: 15px;
+	padding-right: 20px;
+	border: 1px solid #BAB9BA;
+	border-radius: 3px;
+	height: 15px;
+}
+
+.inputOK {
+	background-color: rgb(255, 255, 255);
+	background-image:
+		url("/resources_xt/FW/images/ico16/view_check_s.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 99% 40%;
+	background-size: 15px;
+	padding-right: 20px;
+	border: 1px solid #BAB9BA;
+	border-radius: 3px;
+	height: 15px;
+}
+
+.inputWait {
+	padding-right: 20px;
+	border: 1px solid #BAB9BA;
+	border-radius: 1px;
+	height: 15px;
+}
+
+
+.fwAutoCompletion:not(.inputWait) ~ div.fw_loading_container {
+	display:none;
+}
+
+.inputWait ~ div.fw_loading_container{
+	margin-left : -20px;
+	display:inline-block;
+	vertical-align: text-top;
+	margin-right : 4px;
+}
+
+.acHeader {
+	
+}
+
+.acFooter {
+	border-top: 1px solid white;
+	margin-top: 3px;
+	border-radius: 0px 0px 5px 5px;
+}

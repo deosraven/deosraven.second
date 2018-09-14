@@ -1,0 +1,52 @@
+div.viewtab_title {
+	background-color: #5fa4ab;
+	border-color: #5fa4ab;
+	border-style: none;
+	color: black;
+}
+
+div.viewtab_title_selected {
+	color: white;
+	background-color: #006f7b;
+	border-color: #5fa4ab;
+	border-style: none;
+}
+
+div.viewtab_title:hover {
+	background-color: #006f7b;
+	border-color: #5fa4ab;
+	border-style: none;
+	color: white;
+}
+
+div.bottomLinkArchive:HOVER {
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #5fa4ab;
+}
+
+div.bottomLinkArchive a:HOVER, div.bottomCreateNew a:hover {
+	color: black;
+}
+
+div.bottomLinkArchive {
+	color: white;
+	border-color: #006f7b;
+	box-shadow: 2px 2px 4px #006f7b;
+	background-color: #006f7b;
+}
+
+.bottomLinkArchive a,.bottomCreateNew a {
+	color: white;
+}
+
+div.bottomCreateNew:HOVER {
+	background-color: #5fa4ab;
+}
+
+div.bottomCreateNew {
+	color: white;
+	border-color: #006f7b;
+	box-shadow: 2px 2px 4px #006f7b;
+	background-color: #006f7b;
+}

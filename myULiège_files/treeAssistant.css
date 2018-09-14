@@ -1,0 +1,46 @@
+.ta_divTree {
+	z-index: 100000;
+}
+
+.ta_inputKO  {
+	background-color: rgb(255, 255, 255) !important;
+	background-image:
+		url("/resources_xt/FW/images/ico16/view_s.png") !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-position: 99% 40% !important;
+	padding-right: 20px !important;
+	border: 1px solid #BAB9BA !important;
+	border-radius: 3px !important;
+	height: 17px !important;
+}
+
+.ta_inputOK {
+	background-color: rgb(255, 255, 255) !important;
+	background-image:
+		url("/resources_xt/FW/images/ico16/view_check_s.png") !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-position: 99% 40% !important;
+	padding-right: 20px !important;
+	border: 1px solid #BAB9BA !important;
+	border-radius: 3px !important;
+	height: 17px !important;
+}
+
+.ta_emptyField {
+	background-color: lightgrey;
+	padding: 2px;
+}
+
+div.ta_emptyField>a:link, div.ta_emptyField>a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div.ta_emptyField>a:hover {
+	color: blue;
+	font-weight: bold; 
+	text-decoration: none; 
+}

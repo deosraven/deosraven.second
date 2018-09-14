@@ -1,0 +1,108 @@
+.inputAssistUserKO {
+	background-color: rgb(255, 255, 255);
+	background-image:
+		url("/resources_xt/FW/images/ico16/user1_view_s.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 99% 40%;
+	background-size: 15px;
+	padding-right: 20px;
+	border: 1px solid #BAB9BA;
+	border-radius: 1px;
+	height: 15px;
+}
+
+.inputAssistUserOK {
+	background-color: rgb(255, 255, 255);
+	background-image:
+		url("/resources_xt/FW/images/ico16/user1_selected_s.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 99% 40%;
+	background-size: 15px;
+	padding-right: 20px;
+	border: 1px solid #BAB9BA;
+	border-radius: 1px;
+	height: 15px;
+}
+
+div.viewtab_tabs {
+	
+}
+
+div#result_tab {
+	display: inline-block;
+}
+
+div#titlestabs {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid #023b5e;
+	width: 100%;
+	min-height: 20px;
+	text-align: center;
+}
+
+div.viewtab_title {
+	color: white;
+	cursor: pointer;
+	padding: 7px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	float: left;
+	position: relative;
+	border-bottom-width: 0px;
+}
+
+div.viewtab_title_selected {
+	border-width: 1px;
+	border-style: solid;
+	border-bottom-width: 0px;
+}
+
+div.viewtab_title:hover {
+	border-width: 1px;
+	border-style: solid;
+	border-bottom-width: 0px;
+}
+
+.divChoiceResultPerson div.notValidUser {
+	color: #aaaaaa;
+	font-style: italic;
+}
+
+div.bottomLinkArchive a:HOVER {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+div.bottomLinkArchive, div.bottomCreateNew {
+	padding: 3px;
+	padding-right: 10px;
+	padding-left: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+}
+
+div.bottomCreateNew a:HOVER {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+div.bottomCreateNew {
+	border-color: #006f7b;
+	box-shadow: 2px 2px 4px #B20000;
+	background-color: #006f7b;
+}
+
+div.viewtab_tabs .tabcontent {
+	
+}
+
+div.createNewFriends {
+	background-color: rgb(212, 212, 212);
+	margin: 2px;
+}

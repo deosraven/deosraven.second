@@ -1,0 +1,343 @@
+/* Framework : Titre et Pied de page*/
+#fw_titre {
+	background-image: url(/resources_xt/FW/images/fmkGraph/1/fond_top.png)
+}
+
+#fw_bandeauTitre {
+	background-image: url(/resources_xt/FW/images/fmkGraph/1/fond_bandeauTitre.png)
+}
+
+#fw_menuTitre {
+	background-image: url(/resources_xt/FW/images/fmkGraph/1/fond_menu.png)
+}
+
+#fw_bottom {
+	background-image: url(/resources_xt/FW/images/fmkGraph/1/fond_bottom.png)
+}
+
+#fw_identityTitre {
+	color: #000000; 
+}
+
+#fw_alerteTitre, #fw_alerteTitre a {
+	color: #5fa4ab; 
+}
+
+#fw_footer1, #fw_footer2 { 
+	color: black; 
+}
+
+#fw_footer2 a {
+	color: black; 
+	text-decoration: underline;
+}
+
+#fw_footer2 a:hover {
+	text-decoration: none;
+}
+
+#fw16Title,
+#fw_identityTitre {
+	color: black; 
+}
+
+.fwAvertissementNoProd{ text-decoration: none; color: #FED000  }
+
+/* Liens */
+
+a.fwLienBlanc:link { color: white; text-decoration: none; font-weight:bold  }
+a.fwLienBlanc:visited { color: white; text-decoration: none; font-weight:bold  }
+a.fwLienBlanc:hover { color: white; text-decoration: underline; font-weight:bold  }
+a:link, a { color: #006f7b; text-decoration: none }
+a:hover { color: #006f7b; text-decoration: underline }
+a:visited { color: #006f7b; text-decoration: none }
+
+.fwTableTitre a:link, .fwTableTitre a:visited { color: white; font-weight:bold  }
+
+/* Menu */
+
+.fwMenuStatique { 	color: #006f7b; }
+.fwMenuStatique a:link { color: #006f7b;}
+.fwMenuStatique a:visited { color: #006f7b;}
+.fwMenuStatique a:hover { color: #006f7b;}
+
+.fwTable { background-color: #006f7b; color: #ffffff;}
+.fwTableTitrePad { padding: 3px; border-right: 1px solid white; border-bottom: 1px solid white; color: white; background-color: #006f7b }
+
+.fwCadreFondBlanc
+{
+	border-color: #006f7b;
+}
+
+/* TABLE STANDARD */
+
+.fwTableTitreAcceuil 
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	text-align: left;
+	color: #8D8C81;
+	font-style: normal;
+	border-radius: 0px;
+	border-bottom: 1px #8D8C81 solid;
+	padding-left: 1px;
+}
+
+/* Couleurs de fond */
+
+.table_border_1 { background-color: #006f7b; }
+
+/* Onglets */
+
+td.fwOnglet, td.fwOngletNoHover { 
+	border-color: #006f7b ; 
+}
+
+.table_onglet_1_ext { background-color: #006f7b }
+.table_onglet_2_ext { background-color: #006f7b }
+.table_onglet_3_ext { background-color: #006f7b }
+div.fwOngletActifImg {
+	background-image: url(/resources_xt/FW/images/fmkGraph/1/onglet_selected.png);
+}
+
+td.fwOngletActif {  
+	color: black;
+	background-color: #5FA4AB;
+}
+td.fwOnglet:hover:not(.fwOngletColored) {
+	background-color: #5FA4AB;
+}
+
+td.fwOngletGreen {
+	background-color: #7FB71A;
+}
+
+td.fwOngletGreenActif, 
+td.fwOngletGreen:hover {
+	color: white;
+	background-color: #2A982D;
+}
+
+td.fwOngletBlue {
+	color: #000;
+	background-color: #24B9D6;
+}
+
+td.fwOngletBlueActif,
+td.fwOngletBlue:hover {
+	color: #fff;
+	background-color: #005DA8;
+}
+
+td.fwOngletYellow {
+	color: #000;
+	background-color: #FED001;
+}
+
+td.fwOngletYellowActif,
+td.fwOngletYellow:hover {
+	color: #fff;
+	background-color: #F8AC01;
+}
+
+td.fwOngletRed {
+	color: #000;
+	background-color: #F06951;
+}
+
+td.fwOngletRedActif,
+td.fwOngletRed:hover {
+	color: #fff;
+	background-color: #E42634;
+}
+
+/* Classes colorantes */
+
+.fwTextMainColor {
+	color : #006f7b;
+}
+
+.fwTextSecondColor {
+	color : #5FA4AB;
+}
+
+.fwBackgroundMainColor {
+	background : #006f7b;
+}
+
+.fwBackgroundSecondColor {
+	background : #5FA4AB;
+}
+
+.fwBorderMainColor {
+	border-color : #006f7b;
+}
+
+.fwBorderSecondColor {
+	border-color : #5FA4AB;
+}
+
+/* Assistant SeGI */
+
+/* Loaders CSS */
+
+div.fw_loading {
+	border-top-color: #006f7b;
+	border-bottom-color: #5FA4AB;
+}
+
+/* Progress Bar */
+
+.fwProgressBarCpt
+{
+	color: #5fa4ab;
+}
+
+/* Les titres */
+
+/* Les listes à puce */
+
+/* Erreurs */
+
+/* Pour le taglib : TBoxBBCode*/
+
+/* Couleur des liens*/
+
+/* Prévisions budgétaires */
+
+/* GS */
+
+/* ARI */
+
+/* PREINSCRIPTIONS */
+
+/* JQuery elements */
+
+/*----------------------------------*/
+/*        Table border              */
+/*----------------------------------*/
+
+/*------------- FORM FIELDS ----------------*/
+
+/*------------------------------------------*/
+#fwModalWindowContentTop, .fwWindowContentTop {
+	background-color: #006f7b;
+}
+
+.fwModalMessageContentTitre {
+	background-color: #006f7b;
+	color: white;
+}
+
+#fwModalWindowContentAll, .fwWindowContentAll {
+	border-color: #006f7b;
+}
+
+#fw16MenuContent {
+	background-color: #006f7b;
+}
+
+.fwContextMenu, .fwCMESeparator {
+	border-color: #006f7b;
+}
+
+.fwContextMenuElement a {
+	color: #006f7b;
+	cursor: pointer;
+}
+
+.fwCMETitre {
+	background-color: #006f7b;
+	color: white;
+}
+
+.fwAssist {
+	border-top-color: #006f7b;
+	border-bottom-color: #006f7b;
+}
+
+.fwAssistBegin {
+	border-left-color: #006f7b;
+}
+
+.fwAssistEnd {
+	border-right-color: #006f7b;
+}
+
+.myElemBorder {
+	border: 1px solid #006f7b;
+}
+
+
+.fwAssistAll {
+	border-color: #006f7b;
+}
+
+.fwAssistRightOut:after, .fwAssistRightOut:before {
+	border-color: #006f7b;
+}
+.fwAssistRightOut:after {
+	border-color: transparent;
+	border-left-color: white;
+}
+.fwAssistRightOutActif:after {
+	border-left-color: #5fa4ab;
+}
+.fwAssistRightOut:before {
+	border-color: transparent;
+	border-left-color: #006f7b;
+}
+.fwAssistLeftIn:after, .fwAssistLeftIn:before {
+	border-color: transparent;
+}
+.fwAssistLeftIn:after {
+	border-color: transparent;
+}
+.fwAssistLeftIn:before {
+	border-color: transparent;
+	border-left-color: #006f7b;
+}
+.fwAssistContentActif,.fwAssistRightOutActif,.fwAssistLeftInActif,.fwAssistBeginActif {
+	background-color: #5fa4ab;
+}
+.fwAssistBegin {
+	border-left: 1px solid #006f7b;
+}
+.fwAssistEnd {
+	border-right: 1px solid #006f7b;
+}
+
+.myTable {
+	border-color:  #006f7b;
+	background-color: white;
+}
+
+.myTableQuadrillage{
+	background-color:  #006f7b;
+	}
+
+tr.fwTableRow1:hover > td, tr.over td { color: black; background-color: #5FA4AB }
+tr.fwTableRow0:hover > td, tr.over td { color: black; background-color: #5FA4AB }
+tr.fwTableRow1:hover > td a, tr.over td a {  color:#EDB03D; }
+tr.fwTableRow0:hover > td a, tr.over td a {  color:#EDB03D; }
+tr.fwTableRow1:hover > td a, tr.over td a {  color: black; text-decoration: underline; }
+tr.fwTableRow0:hover > td a, tr.over td a {  color: black; text-decoration: underline; }
+tr.fwTableRow1:hover > td a:hover, tr.over td a:hover {  text-decoration: none; }
+tr.fwTableRow0:hover > td a:hover, tr.over td a:hover {  text-decoration: none; }
+
+.fwBorderColor {
+	border-color: #006f7;
+}
+
+div.fwGroupeInfoAll, div.fwEncadreAll {
+	border: 1px solid #006f7b;
+}
+
+div.fwGroupeInfoButtons {
+	border-left: 1px solid #006f7b;
+	border-bottom: 1px solid #006f7b;
+}
+div.fwGroupeInfoTitre {
+	color: white;
+	background-color: #006f7b;
+} 

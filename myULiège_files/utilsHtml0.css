@@ -1,0 +1,150 @@
+span.fwFormStar {
+	cursor: help;
+	font-weight: bolder;
+	vertical-align: top;
+}
+
+span.fwNotEmptyStar {
+	color: #e32f2f;
+}
+
+span.fwNotEmptyGroupeStar {
+	color: #5959ff;
+}
+
+span.fwNotEmptyGroupeUniqueStar {
+	color: #af4bff;
+}
+
+span.fwEmptyOrNotEmptyGroupeStar {
+	color: #c86400;
+}
+
+span.fwEmptyOrRegexStar {
+	font-weight: lighter;
+	position: relative;
+	top: -3px;
+	padding-left: 3px;
+}
+
+span.fwFormCheckerInputOK {
+	color: #23bc23;
+}
+
+span.fwNoStar {
+	display: none;
+}
+
+input[type=text].fwNotValid,input[type=password].fwNotValid {
+	box-shadow: inset 0 0 3px 1px #ff6464;
+}
+
+div.fwInputSelectMultipleDiv > button.fwNotValid, input[type=checkbox].fwNotValid,input[type=radio].fwNotValid,select.fwNotValid, textarea.fwNotValid	{
+	box-shadow: 0 0 3px 1px #ff6464;
+}
+
+span.fwRegInputSpan {
+	text-align: right;
+	width: 55px;
+	display: inline-block;
+}
+
+div.fwdWrapperContent {
+	position: relative;
+	display: inline-block;
+}
+
+div.fwPwdWrapper {
+	display: none;
+	height: 330px;
+	width: 330px;
+	border-radius: 2px;
+	text-align: left;
+	background-color: rgb(250, 250, 250);
+	border: 1px solid rgb(194, 194, 194);
+	position: absolute;
+	left: 24px;
+	top: -170px;
+	z-index: 99999;
+}
+
+div.fwPwdTriangle {
+	height: 45px;
+	width: 24px;
+	padding-bottom: 1px;
+	background: url("/resources_xt/FW/images/triangle2.png");
+	position: relative;
+	left: -24px;
+	top: 143px;
+}
+
+div.fwPwdValidation {
+	width: 300px;
+	text-align: left;
+	position: relative;
+	top: -45px;
+}
+
+div.fwPwdValidation ul {
+	padding-left: 20px;
+	width: 100%;
+}
+
+div.fwPwdValidation li {
+	margin: 0px 0px 3px 0px;
+	padding: 0px 0px 4px 20px;
+	list-style-type: none;
+	font-size: 12px;
+	line-height: 0px;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana,
+		sans-serif;
+	background:
+		url("/resources_xt/FW/images/ico16/bullet_ball_grey_s.png")
+		no-repeat scroll 0px 2px transparent;
+}
+
+div.fwPwdValidation p {
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+div.fwPwdValidation li.fail {
+	background-color: red;
+	background:
+		url("/resources_xt/FW/images/ico16/bullet_ball_red_s.png")
+		no-repeat scroll 0px 2px transparent;
+	font-weight: bold;
+	color: rgb(234, 0, 0);
+}
+
+div.fwPwdValidation li.pass {
+	background-color: green;
+	background:
+		url("/resources_xt/FW/images/ico16/bullet_ball_green_s.png")
+		no-repeat scroll 0px 2px transparent;
+}
+
+.fwPwdStrong {
+	color: rgb(23, 140, 11);
+	font-style: normal;
+	font-weight: 800;
+}
+
+.fwPwdModerate {
+	color: rgb(129, 179, 13);
+	font-style: normal;
+	font-weight: 800;
+}
+
+.fwPwdWeak {
+	color: rgb(234, 0, 0);
+	font-style: normal;
+	font-weight: 800;
+	text-shadow: 0px 0px 20px rgb(234, 50, 50);
+	color: rgb(234, 0, 0);
+}
+
+.fwPwdFirst {
+	border: 1px solid red;
+	display: inline-table;
+}
